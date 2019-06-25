@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #container{
+            width: 70%;
+            margin: auto;
+        }
+        #logo{
+            float: left;
+        }
+        h1{
+            float:right;
+            
+            width: 5em;
+        }
+        header{
+            overflow: hidden;
+        }
+        nav{
+            
+            margin-top: 15em;
+        }
+        nav ul li{
+            display: inline-block;
+            list-style: none;
+        }
+        nav ul li a{
+            margin-left: 2em;
+            text-decoration: none;
+        }
+        #Primero{
+            border-right:1px solid gray;
+            padding-right: 2em;
+        }
+        main{
+            float: left;
+            margin-left: 2em;
+        }
+        aside{
+            float: right;
+        }
+    
+    </style>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <picture id="logo">
+                <img src="Imagen/logo.jpg" width="200px" height="200px" alt="">
+            </picture>
+            <h1>American heart association</h1>
+            <nav>
+                <ul>
+                    <li id="Primero"><a href="#" >Enlace 1</a></li>
+                    <li><a href="#">Enlace 2</a></li>
+                </ul>
+            </nav>
+            
+        </header>
+        <main>
+            <form action="#">
+                <p>
+                    <label for="nombre">Name: </label>
+                    <input type="text" id="nombre"> 
+                </p>
+                <p>
+                    <label for="Email">Email addres: </label>
+                    <input type="email" id="Email">
+                </p>
+                <p>
+                    <label for="comentario">Comentario</label>
+                </p>
+                <p>
+                    
+                    <textarea id="comentario" cols="30" rows="10"  ></textarea>
+                </p>
+                <p>
+                    <input type="submit" value="submit">
+                </p>
+
+            </form>
+        </main>
+
+        <aside>
+            <picture id="cliente">
+                <img src="Imagen/cliente.jpg" width="200px" height="200px">
+            </picture>
+            <p>
+                Description of qualifications of client
+            </p>
+        </aside>
+
+       
+    </div>
+</body>
+</html>
